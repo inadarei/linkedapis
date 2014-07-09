@@ -1,0 +1,64 @@
+body {
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: .04em;  
+}
+
+a {
+  font-weight: normal;
+}
+
+p, li, dt, dd {
+    font-size: 16px;
+    color: #302C25;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia;
+}
+h1, h2, h3, h4, h5 {
+    color: #005A9C;
+}
+
+.container h4 {
+    margin-top: 1.5em;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    color: #959592;
+    font-size: 16px;
+}
+
+
+blockquote {
+  display: block;
+  border: 1px black solid;
+  background-color: #e0e0e0;
+  padding: .7em;
+  margin-left: 30px;
+}
+
+dd {
+  display: block;
+  margin-left: 30px;
+}
+
+span.reg-draft {
+    background: orange;
+    color: white;
+    padding: 2px 4px;
+}
+
+span.reg-approved, span.reg-approved a {
+    background: green;
+    color: white;
+    padding: 2px 4px;
+}
+
+span.reg-approved a {
+  text-decoration: underline;
+}

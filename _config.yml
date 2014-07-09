@@ -1,0 +1,5 @@
+markdown: redcarpet
+pygments: true
+safe: false
+lsi: false
+exclude: [.git, readme.md]

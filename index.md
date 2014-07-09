@@ -32,16 +32,19 @@ Let's get the engine cranking!
 ```json
 { "title" : "A Blog Post About Something",
   "links" : [
-              {"rel" : "author", "href" : "http://example.com/someauthor"},
-              {"rel" : "series", "href" : "http://example.com/someseries"}
-            ]}
+              {"rel" : "author", "href" : "http://api.example.com/someauthor"},
+              {"rel" : "series", "href" : "http://api.example.com/someseries"}
+            ]
+}
 ```     
 
 #### A Siloed API
 
 ```json
 { "title"  : "A Blog Post About Something",
-  "author" : 14912949, "series" : 394 }
+  "author" : 14912949, 
+  "series" : 394
+}
 ```     
 
 

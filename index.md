@@ -33,7 +33,7 @@ Let's get the engine cranking!
 { "title" : "A Blog Post About Something",
   "links" : [
               {"rel" : "author", "href" : "http://api.example.com/authors/johndoe"},
-              {"rel" : "series", "href" : "http://api.example.com/someseries"}
+              {"rel" : "series", "href" : "http://api.different-org.com/someseries"}
             ]
 }
 ```     

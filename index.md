@@ -5,9 +5,9 @@ title: Linked APIs
 
 # Linked APIs
 
-A Linked API is a [Hypermedia API](http://www.infoq.com/articles/hypermedia-api-tutorial-part-one) that uses full URIs to establish connections between various data items in the API.
+A Linked API is a [Hypermedia API](http://www.infoq.com/articles/hypermedia-api-tutorial-part-one) that uses full URIs for primary identifiers of data items and to establish connections between various data items in the API.
 
-Usage of dereferenceable URIs, as opposed to: foreign keys or other types of internal pointers, allows any data item to be externalized and  linked across organizational boundaries, thus connecting API providers and breaking data silos.
+Usage of dereferenceable URIs, as opposed to: synthetic keys or other types of internal pointers, allows any data item to be externalized and  linked across organizational boundaries, thus connecting API providers and breaking data silos.
 
 All Linked APIs must be a Hypermedia API, but not all Hypermedia APIs are Linked APIs.
 

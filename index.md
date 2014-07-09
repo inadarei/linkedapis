@@ -50,7 +50,7 @@ Let's get the engine cranking!
       "username": "johndoe",
       "name": "John Doe",
       "id": 14912949
-  } 
+  }, 
   "series" : 394
 }
 ```     

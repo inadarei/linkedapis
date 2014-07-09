@@ -42,7 +42,11 @@ Let's get the engine cranking!
 
 ```json
 { "title"  : "A Blog Post About Something",
-  "author" : 14912949, 
+  "author": {
+      "username": "johndoe",
+      "name": "John Doe",
+      "id": 14912949
+  } 
   "series" : 394
 }
 ```     

@@ -32,8 +32,8 @@ Let's get the engine cranking!
 ```json
 { "title" : "A Blog Post About Something",
   "links" : [
-              {"rel" : "author", "href" : "http://api.example.com/authors/johndoe"},
-              {"rel" : "series", "href" : "http://api.different-org.com/someseries"}
+              {"rel" : "author", "href" : "http://api.our-company.com/authors/johndoe"},
+              {"rel" : "series", "href" : "http://api.different-company.org/someseries"}
             ]
 }
 ```     

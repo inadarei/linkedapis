@@ -9,26 +9,6 @@ A Linked API is a [Hypermedia API](http://www.infoq.com/articles/hypermedia-api-
 
 Usage of dereferenceable URIs, as opposed to: foreign keys or other types of internal pointers, allows any data item to be externalized and  linked across organizational boundaries, thus connecting API providers and breaking data silos.
 
-### Example
-
-#### A Linked API
-     
-```json
-{ "title" : "A Blog Post About Something",
-  "links" : [
-              {"rel" : "author", "href" : "http://example.com/someauthor"},
-              {"rel" : "series", "href" : "http://example.com/someseries"}
-            ]}
-```     
-
-#### A Siloed API
-     
-```json
-{ "title"  : "A Blog Post About Something",
-  "author" : 14912949, "series" : 394 }
-```     
-
-
 ### Motivation
 
 Linked APIs are a novel breed of APIs that fix a significant flaw with the current generation of APIs.
@@ -44,6 +24,26 @@ We need APIs that link to each other. Hyperlinks were essential for the growth o
 We can only truly have open and free data, if we jail-brake the data out of the silos that data is stashed-away at, currently. Linked APIs are the key to data freedom on the web. They are the engine of that freedom. 
 
 Let's get the engine cranking!
+
+### Example
+
+#### A Linked API
+
+```json
+{ "title" : "A Blog Post About Something",
+  "links" : [
+              {"rel" : "author", "href" : "http://example.com/someauthor"},
+              {"rel" : "series", "href" : "http://example.com/someseries"}
+            ]}
+```     
+
+#### A Siloed API
+
+```json
+{ "title"  : "A Blog Post About Something",
+  "author" : 14912949, "series" : 394 }
+```     
+
 
 -----------------------
 

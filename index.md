@@ -32,7 +32,8 @@ Let's get the engine cranking!
 #### A Linked API
 
 ```json
-{ "title" : "A Blog Post About Something",
+{ "href"  : "http://mydomain.com/posts/linked-apis-definition"
+  "title" : "A Blog Post About Something",
   "links" : [
               {"rel" : "author", "href" : "http://api.our-company.com/authors/johndoe"},
               {"rel" : "series", "href" : "http://api.different-company.org/someseries"}
@@ -43,8 +44,9 @@ Let's get the engine cranking!
 #### A Siloed API
 
 ```json
-{ "title"  : "A Blog Post About Something",
-  "author": {
+{ "article_id" : 58321
+  "title"      : "A Blog Post About Something",
+  "author"     : {
       "username": "johndoe",
       "name": "John Doe",
       "id": 14912949

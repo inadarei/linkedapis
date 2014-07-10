@@ -29,7 +29,7 @@ Let's get the engine cranking!
 
 ### Example
 
-#### A Linked API
+#### A Linked API Response
 
 ```json
 { "href"  : "http://mydomain.com/posts/linked-apis-definition",
@@ -41,7 +41,7 @@ Let's get the engine cranking!
 }
 ```     
 
-#### A Siloed API
+#### A Siloed API Response
 
 ```json
 { "article_id" : 58321,
@@ -53,7 +53,28 @@ Let's get the engine cranking!
   }, 
   "series" : 394
 }
-```     
+```    
+
+#### A Hypermedia API Response (using [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html)) that is still siloed.
+
+```json
+{ "uber": {
+    "version" : "1.0",
+    "data" : [
+      { "name" : "article_id", "value" : 58321 },
+      { "name" : "title", "value" : "A Blog Post About Something" },
+      { "name" : "author",
+        "data" : [
+          { "name" : "username", "value" : "johndoe"  },
+          { "name" : "name",     "value" : "John Doe" },
+          { "name" : "id",       "value" : 14912949 }
+        ]
+      },
+      { "name" : "series", "value" : 394 }
+    ]    
+  }
+}
+```
 
 
 -----------------------

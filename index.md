@@ -76,6 +76,30 @@ Let's get the engine cranking!
 }
 ```
 
+#### A Hypermedia API Response (Using [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html)) That Is A Linked API.
+
+
+{ "href"  : "http://mydomain.com/posts/linked-apis-definition",
+  "title" : "A Blog Post About Something",
+  "links" : [
+              {"rel" : "author", "href" : "http://api.our-company.com/authors/johndoe"},
+              {"rel" : "series", "href" : "http://api.different-company.org/someseries"}
+            ]
+}
+
+```json
+{ "uber": {
+    "version" : "1.0",
+    "data" : [
+      { "rel"  : ["self"],    "url" : "http://mydomain.com/posts/linked-apis-definition" },
+      { "name" : "title",   "value" : "A Blog Post About Something" },
+      { "rel"  : ["author"],  "url" : "http://api.our-company.com/authors/johndoe" },
+      { "rel"  : ["series"],  "url" : "http://api.different-company.org/someseries" }
+    ]    
+  }
+}
+```
+
 
 -----------------------
 

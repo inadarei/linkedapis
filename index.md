@@ -9,7 +9,7 @@ title: Linked APIs
 
 Usage of dereferenceable URLs for identifiers and for referencing, as opposed to: synthetic keys or other types of internal pointers, allows data entities to be externalized and  linked across organizational boundaries, thus connecting API providers and breaking data silos.
 
-A Linked APIs can benefit from being a Hypermedia API, but the two notions are addressing different aspects of API design.
+A Linked APIs can greatly benefit from being a [Hypermedia API](http://www.infoq.com/articles/hypermedia-api-tutorial-part-one), but strictly speaking, the two notions are addressing different aspects of API design.
 
 ### Motivation
 

@@ -94,7 +94,7 @@ Let's get the engine cranking!
 
 ### How To Contribute
 
-If you find a typo, or have a suggestion about this document, please either submit a pull request to the [Github Repo](https://github.com/inadarei/linkedapis) where this page is hosted, or open a [issue request](https://github.com/inadarei/linkedapis/issues)
+If you find a typo, or have a suggestion about this document, please either submit a pull request to the [Github Repo](https://github.com/inadarei/linkedapis) where this page is hosted, or open an [issue request](https://github.com/inadarei/linkedapis/issues)
 
 -----------------------
 

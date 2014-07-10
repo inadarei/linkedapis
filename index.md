@@ -55,7 +55,7 @@ Let's get the engine cranking!
 }
 ```    
 
-#### An [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html)) Response That Is Not a Linked API Response.
+#### An [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html) Response That Is Not a Linked API Response.
 
 ```json
 { "uber": {

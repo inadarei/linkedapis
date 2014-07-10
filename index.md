@@ -55,7 +55,7 @@ Let's get the engine cranking!
 }
 ```    
 
-#### A Hypermedia API Response (using [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html)) that is still siloed.
+#### A Hypermedia API Response (Using [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html)) That Is Still Siloed.
 
 ```json
 { "uber": {

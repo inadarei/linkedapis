@@ -29,11 +29,11 @@ Let's get the engine cranking!
 
 ### Linked APIs vs. Hypermedia APIs.
 
-The intent of the Hypermedia style of API design is to make APIs interactive and self-descriptive, by encapsulating both data as well as controls in the response payload.
+Hypermedia style of API design focuses on "simultaneous presentation of information and controls such that the information becomes the affordance through which the user obtains choices and selects actions". The benefit of such design is increased flexibility and adaptability over time.  
 
-The intent of the Linked API style of API design is to break data silos that APIs currently create, by allowing APIS to operate on data-sets that are distributed across organizational boundaries.
+Linked API style of API design focuses on breaking data silos that APIs currently create, by allowing APIS to operate on data-sets that are distributed across organizational boundaries. The benefit of such design is better distribution of responsibilities among data-set owners and API publishers
 
-Both of the styles use hyperlinks extensively (Hypermedia style uses more than just hyperlinks) so they are very complementary, but still orthogonal in their intent.
+Both of the styles use hypermedia controls (e.g. hyperlinks) extensively so they are very complementary, but still orthogonal in their design focus.
 
 ### Example
 

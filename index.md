@@ -27,6 +27,14 @@ We can only truly have open and free data, if we jail-brake the data out of the 
 
 Let's get the engine cranking!
 
+### Linked APIs vs. Hypermedia APIs.
+
+The intent of the Hypermedia style of API design is to make APIs interactive and self-descriptive, by encapsulating both data as well as controls in the response payload.
+
+The intent of the Linked API style of API design is to break data silos that APIs currently create, by allowing APIS to operate on data-sets that are distributed across organizational boundaries.
+
+Both of the styles use hyperlinks extensively (Hypermedia style uses more than just hyperlinks) so they are very complementary, but still orthogonal in their intent.
+
 ### Example
 
 #### A Linked API Response

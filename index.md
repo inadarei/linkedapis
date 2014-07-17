@@ -9,7 +9,13 @@ title: Linked APIs
 
 The benefit of using URLs is that we can deterministically fetch an entity representation from anywhere on the web. Usage of URLs for identifiers and for referencing, as opposed to: synthetic keys or other types of internal pointers, allows data entities to be externalized and  linked across organizational boundaries, thus connecting API providers and breaking data silos.
 
-A Linked API can greatly benefit from being a [Hypermedia API](http://www.infoq.com/articles/hypermedia-api-tutorial-part-one), but strictly speaking, the two notions are addressing different aspects of API design.
+### Linked APIs vs. Hypermedia APIs.
+
+Hypermedia style of API design focuses on "simultaneous presentation of information and controls such that the information becomes the affordance through which the user obtains choices and selects actions". The benefit of such design is increased flexibility and adaptability over time.  
+
+Linked API style of API design focuses on [unbundling](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) of data storage from the interface in APIs, which has the affect of allowing APIS to operate on data-sets that are distributed across organizational boundaries. The benefit of such design is better distribution of responsibilities among data-set owners and API publishers
+
+Both of the styles use hypermedia controls (e.g. hyperlinks) extensively so they are very complementary, but still orthogonal in their design focus.
 
 ### Motivation
 
@@ -26,14 +32,6 @@ We need APIs that link to each other. Hyperlinks were essential for the growth o
 We can only truly have open and free data, if we jail-brake the data out of the silos that data is stashed-away at, currently. Linked APIs are the key to data freedom on the web. They are the engine of that freedom. 
 
 Let's get the engine cranking!
-
-### Linked APIs vs. Hypermedia APIs.
-
-Hypermedia style of API design focuses on "simultaneous presentation of information and controls such that the information becomes the affordance through which the user obtains choices and selects actions". The benefit of such design is increased flexibility and adaptability over time.  
-
-Linked API style of API design focuses on [unbundling](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) of data storage from the interface which has the affect of allowing APIS to operate on data-sets that are distributed across organizational boundaries. The benefit of such design is better distribution of responsibilities among data-set owners and API publishers
-
-Both of the styles use hypermedia controls (e.g. hyperlinks) extensively so they are very complementary, but still orthogonal in their design focus.
 
 ### Example
 

@@ -11,7 +11,7 @@ The benefit of using URLs is that we can deterministically fetch an entity repre
 
 ### Linked APIs vs. Hypermedia APIs.
 
-Hypermedia style of API design focuses on "simultaneous presentation of information and controls such that the information becomes the affordance through which the user obtains choices and selects actions"<a href="#fn1" id="ref1">1</a></sup>. The benefit of such design is increased flexibility and adaptability over time.  
+Hypermedia style of API design focuses on "simultaneous presentation of information and controls such that the information becomes the affordance through which the user obtains choices and selects actions"<sup><a href="#fn1" id="ref1">1</a></sup>. The benefit of such design is increased flexibility and adaptability over time.  
 
 Linked API style of API design focuses on [unbundling](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) of data storage from the interface in APIs, which has the affect of allowing APIS to operate on data-sets that are distributed across organizational boundaries. The benefit of such design is better distribution of responsibilities among data-set owners and API publishers
 
@@ -104,7 +104,9 @@ If you find a typo, or have a suggestion about this document, please either subm
 
 -----------------------
 
-<sup id="fn1">1. Roy T. Fielding [Architectural Styles and
+#### References
+
+<sup id="fn1">1.</sup> Roy T. Fielding [Architectural Styles and
 the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 
 -----------------------

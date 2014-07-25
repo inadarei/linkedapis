@@ -104,7 +104,7 @@ If you find a typo, or have a suggestion about this document, please either subm
 
 -----------------------
 
--------------------------
+### Have Feedback? Leave a Comment:
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">

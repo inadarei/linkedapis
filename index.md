@@ -5,7 +5,7 @@ title: Linked APIs
 
 # Linked APIs
 
-> Linked APIs are a new breed of APIs that insist on de-coupling of data storage from the API interface. The de-coupling allows distribution of the data underlying an API across organizational boundaries, thus preventing formation of data silos on the web.
+> Linked APIs are a new breed of APIs that insist on [unbundling](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) of data storage from the API interface. The de-coupling allows distribution of the data underlying an API across organizational boundaries, thus preventing formation of data silos on the web.
 
 ### The Nuts and Bolts of How To
 

@@ -5,13 +5,17 @@ title: Linked APIs
 
 # Linked APIs
 
-> Linked APIs are a new breed of APIs that insist on [unbundling](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) of data storage from the API interface. The de-coupling allows distribution of the data underlying an API across organizational boundaries, thus preventing formation of data silos on the web.
+> Linked APIs are APIs that [unbundle](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) data storage from the API interface. The unbundling allows distribution of the data storage underlying an API across organizational boundaries, thus preventing formation of data silos on the web.
 
 ### The Nuts and Bolts of How To
 
-For an API to become a Linked API it has to use URLs [[RFC1738](http://www.ietf.org/rfc/rfc1738.txt)] as primary identifiers of all core data entities, and for establishing references between entities.
+For an API to become a Linked API it has to:
 
-The benefit of using URLs is that it allows externalization of a data entity — we can deterministically fetch an entity representation from anywhere on the web via a URL. Usage of URLs instead of synthetic keys or other types of internal pointers, allows pointing to a data entity across organizational boundaries, thus connecting API providers and breaking data silos.
+- use URLs [[RFC1738](http://www.ietf.org/rfc/rfc1738.txt)] as primary identifiers of all core data entities, 
+- use URLs [[RFC1738](http://www.ietf.org/rfc/rfc1738.txt)] to establish references between entities.
+- architect API back-end as an index of a disrtibuted storage, rather than a system of record for the underlying data.
+
+The benefit of using URLs for data connections is that it allows externalization of a data entity — we can deterministically fetch an entity representation from anywhere on the web via a URL. Usage of URLs instead of synthetic keys or other types of internal pointers, allows pointing to a data entity across organizational boundaries, thus connecting API providers and breaking data silos.
 
 ### Linked APIs vs. Hypermedia APIs.
 

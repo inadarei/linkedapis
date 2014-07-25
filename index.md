@@ -7,7 +7,7 @@ title: Linked APIs
 
 > Linked APIs are APIs that [unbundle](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) data storage from the API interface. The unbundling allows distribution of the data storage underlying an API across organizational boundaries, thus preventing formation of data silos on the web.
 
-### The Nuts and Bolts of How To
+### The Nuts and Bolts of How-To
 
 For an API to become a Linked API it has to:
 

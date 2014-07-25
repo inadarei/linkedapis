@@ -5,7 +5,11 @@ title: Linked APIs
 
 # Linked APIs
 
-> A Linked API is an API that uses URLs [[RFC1738](http://www.ietf.org/rfc/rfc1738.txt)] as primary identifiers of data entities, and for references to connected entities.
+> Linked APIs are a new breed of APIs that insist on de-coupling of data storage from the API interface. The de-coupling allows distribution of the data underlying an API across organizational boundaries, thus preventing formation of data silos on the web.
+
+### The Nuts and Bolts of How To
+
+A Linked API is an API that uses URLs [[RFC1738](http://www.ietf.org/rfc/rfc1738.txt)] as primary identifiers of data entities, and for references to connected entities.
 
 The benefit of using URLs is that we can deterministically fetch an entity representation from anywhere on the web. Usage of URLs for identifiers and for referencing, as opposed to: synthetic keys or other types of internal pointers, allows data entities to be externalized and  linked across organizational boundaries, thus connecting API providers and breaking data silos.
 

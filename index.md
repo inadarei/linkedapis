@@ -98,10 +98,6 @@ Let's get the engine cranking!
 }
 ```
 
-### How To Contribute
-
-If you find a typo, or have a suggestion about this document, please either submit a pull request to the [Github Repo](https://github.com/inadarei/linkedapis) where this page is hosted, or open an [issue request](https://github.com/inadarei/linkedapis/issues)
-
 -----------------------
 
 ### Have Feedback? Leave a Comment:
@@ -121,8 +117,13 @@ If you find a typo, or have a suggestion about this document, please either subm
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-
 -----------------------
+
+### How To Contribute
+
+If you find a typo, or have a suggestion about this document, please either submit a pull request to the [Github Repo](https://github.com/inadarei/linkedapis) where this page is hosted, or open an [issue request](https://github.com/inadarei/linkedapis/issues)
+
+------------------------
 
 #### References
 

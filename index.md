@@ -145,3 +145,15 @@ the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fiel
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Linked APIs Definition</span> was originally coined by <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/inadarei" property="cc:attributionName" rel="cc:attributionURL">Irakli Nadareishvili</a>  and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 Contributors: [Mike Amundsen](https://twitter.com/mamund)
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54331678-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

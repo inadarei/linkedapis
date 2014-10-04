@@ -134,8 +134,6 @@ Both of the styles use hypermedia controls (e.g. hyperlinks) extensively so they
 
 If you find a typo, or have a suggestion about this document, please either submit a pull request to the [Github Repo](https://github.com/inadarei/linkedapis) where this page is hosted, or open an [issue request](https://github.com/inadarei/linkedapis/issues)
 
-------------------------
-
 #### Contributors
 
 - [Mike Amundsen](https://twitter.com/mamund)

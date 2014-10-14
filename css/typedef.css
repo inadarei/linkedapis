@@ -14,14 +14,36 @@ p, li, dt, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia;
+    font-weight: 200;
 }
 h1, h2, h3, h4, h5 {
     color: #005A9C;
 }
 
+h1 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  color: #4c3544;
+}
+
+.definition {
+  font-size: 1.7em;
+  font-weight: 100;
+  letter-spacing: 0.07em;
+  line-height: 1.2em;
+  display: block;
+  color: #4c3544;
+  margin: 1.0em 0 0.8em 0;
+}
+
 .container h4 {
     margin-top: 1.5em;
+}
+
+.container {
+  max-width: 920px;
 }
 
 h5 {

@@ -5,7 +5,7 @@ title: Linked APIs
 
 # Linked APIs
 
-> Linked APIs are APIs capable of operating on distributed data-sets, crossing organizational data boundaries. 
+<span class="definition">Linked APIs are APIs capable of operating on distributed data-sets, crossing organizational data boundaries.</span> 
 
 Conventional APIs assume that all data is local — they can only provide interface to data that is maintained by the API provider itself. Linked APIs [unbundle](http://www.vox.com/2014/6/24/5840248/the-powerful-economic-principle-behind-yo) data storage from the API interface. The unbundling allows distribution of the data storage across organizational boundaries, thus preventing formation of data silos on the web.
 

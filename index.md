@@ -15,6 +15,16 @@ Linked APIs are a novel breed of APIs that fix a significant flaw with the curre
 
 The problem with the current APIs is that: most APIs are, at best, creating narrow windows into solid walls surrounding the silo-ed data islands. Even the most well-known and large APIs – such as those provided by Twitter, Facebook or Google – only operate on the data that is within their own databases.
 
+#### Compare this silo-ed response:
+
+{% include siloed-example.md %}   
+
+vs. the Linked API response that doesn't assume linked resources are local:
+
+{% include linked-example.md %}
+
+You can see that in the Linked API example, any resource (e.g. author) can live in a remote API/data-source, whereas in the silo-ed example, data is assumed local, is referenced with local identifier.
+
 To take Twitter as the example: there is a lot that you can do with their public API; but in the end all of the created content always resides on Twitter's servers. The same is true for Facebook, of course. 
 
 In that sense, current APIs create isolated, guarded data islands in the universe of the web. Which is very "anti-web" — the web was created in the spirit of decentralized equal participation. On the web, everybody publishes everywhere, owns their data, and then we have ways to reach that data through hyperlinks, rss feeds, activity streams, Google search and other methods. APIs have not really reached that stage of maturity, yet. APIs are highly centralized, in terms of data storage, and virtually none of them ever link to other APIs.
@@ -48,66 +58,20 @@ Both of the styles use hypermedia controls (e.g. hyperlinks) extensively so they
 
 #### A Linked API Response
 
-```json
-{ "href"  : "http://mydomain.com/posts/linked-apis-definition",
-  "title" : "A Blog Post About Something",
-  "links" : [
-              {"rel" : "author", "href" : "http://api.our-company.com/authors/johndoe"},
-              {"rel" : "series", "href" : "http://api.different-company.org/someseries"}
-            ]
-}
-```     
+{% include linked-example.md %}       
 
 #### A Siloed API Response
 
-```json
-{ "article_id" : 58321,
-  "title"      : "A Blog Post About Something",
-  "author"     : {
-      "username": "johndoe",
-      "name": "John Doe",
-      "id": 14912949
-  }, 
-  "series" : 394
-}
-```    
+{% include siloed-example.md %}   
 
 #### An [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html) Response That Is Not a Linked API Response.
 
-```json
-{ "uber": {
-    "version" : "1.0",
-    "data" : [
-      { "name" : "article_id", "value" : 58321 },
-      { "name" : "title", "value" : "A Blog Post About Something" },
-      { "name" : "author",
-        "data" : [
-          { "name" : "username", "value" : "johndoe"  },
-          { "name" : "name",     "value" : "John Doe" },
-          { "name" : "id",       "value" : 14912949 }
-        ]
-      },
-      { "name" : "series", "value" : 394 }
-    ]    
-  }
-}
-```
+{% include siloed-uber.md %}
 
 #### An [UBER](https://rawgit.com/mamund/media-types/master/uber-hypermedia.html) Response That Is A Linked API.
 
 
-```json
-{ "uber": {
-    "version" : "1.0",
-    "data" : [
-      { "rel"  : ["self"],    "url" : "http://mydomain.com/posts/linked-apis-definition" },
-      { "name" : "title",   "value" : "A Blog Post About Something" },
-      { "rel"  : ["author"],  "url" : "http://api.our-company.com/authors/johndoe" },
-      { "rel"  : ["series"],  "url" : "http://api.different-company.org/someseries" }
-    ]    
-  }
-}
-```
+{% include linked-uber.md %}
 
 -----------------------
 

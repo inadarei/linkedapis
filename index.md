@@ -44,7 +44,7 @@ For an API to become a Linked API it has to:
 - Similarly, use dereferenceable URIs<sup>[[RFC3986](http://www.ietf.org/rfc/rfc3986.txt)]</sup> to establish links between entities.
 - Architect API back-end as an index of a distributed storage, rather than a system of record for the underlying data. [Event Sourcing](https://msdn.microsoft.com/en-us/library/dn589792.aspx) with [CQRS](https://msdn.microsoft.com/en-us/library/dn568103.aspx) are often-used implementation patterns to achieve effective data-storage, with such approach.
 
-The benefit of using URIs for data connections is that it allows externalization of a data entity — we can deterministically fetch an entity representation from anywhere on the web via a URI. Usage of URIs instead of synthetic keys or other types of internal pointers, allows pointing to a data entity across organizational boundaries, thus connecting API providers and breaking data silos.
+The benefit of using URIs for data connections is that it allows externalization of a data entity — we can deterministically fetch an entity representation from anywhere on the web via a URI. Usage of URIs instead of synthetic keys or other types of internal pointers, allows pointing to a data entity across organizational boundaries, thus *connecting API providers and breaking data silos*.
 
 ### Linked APIs vs. Hypermedia APIs.
 

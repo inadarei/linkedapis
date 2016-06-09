@@ -40,8 +40,8 @@ Let's get the engine cranking!
 
 For an API to become a Linked API it has to:
 
-- use URLs<sup>[[RFC1738](http://www.ietf.org/rfc/rfc1738.txt)]</sup> as primary identifiers of all core data entities, 
-- use URLs<sup>[[RFC1738](http://www.ietf.org/rfc/rfc1738.txt)]</sup> to establish references between entities.
+- use HTTP URIs<sup>[[RFC3986](http://www.ietf.org/rfc/rfc3986.txt)]</sup> as primary identifiers of all core data entities, 
+- use HTTP URIs<sup>[[RFC3986](http://www.ietf.org/rfc/rfc3986.txt)]</sup> to establish references between entities.
 - architect API back-end as an index of a distributed storage, rather than a system of record for the underlying data.
 
 The benefit of using URLs for data connections is that it allows externalization of a data entity — we can deterministically fetch an entity representation from anywhere on the web via a URL. Usage of URLs instead of synthetic keys or other types of internal pointers, allows pointing to a data entity across organizational boundaries, thus connecting API providers and breaking data silos.
